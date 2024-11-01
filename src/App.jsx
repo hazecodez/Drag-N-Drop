@@ -17,7 +17,7 @@ export default function App() {
       >
         <input
           type="text"
-          placeholder="Enter Notes"
+          placeholder="Enter Notes here"
           value={note}
           onChange={(e) => setNote(e.target.value)}
         />
